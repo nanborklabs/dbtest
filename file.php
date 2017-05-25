@@ -1,10 +1,3 @@
-//<?php
-//$pdo = mysqli_connect('host=35.184.184.37','root','GGdk5isPqPgPspyq','booksdb');
-
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
 $servername = "35.184.184.37";
 $username = "root";
@@ -33,6 +26,3 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?> 
-
-</body>
-</html>
